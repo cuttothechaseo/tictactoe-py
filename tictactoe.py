@@ -39,7 +39,7 @@ def get_player_move(board):
 def main():
     board = create_board()
     display_board(board)
-    get_player_move(board)
+    player_response = get_player_move(board)
 
 
 if __name__ == "__main__":
